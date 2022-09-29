@@ -78,7 +78,7 @@ public class Basket {
     public void print(String title) {
         System.out.println(title);
         if (items.isEmpty()) {
-            System.out.println("Корзина пуста");
+            System.out.println("Корзина пуста. Совсем пуста...");
         } else {
             System.out.println(items);
         }
